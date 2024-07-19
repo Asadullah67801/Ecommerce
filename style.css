@@ -1,0 +1,447 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.carousel-inner img{
+    width:70%;
+}
+.slider--container{
+    display: flex;
+
+ 
+}
+
+.bottom--content{
+  display: flex;
+  gap:80px;
+  align-items: center;
+
+
+}
+.fa-heart{
+    color:black;
+    background-color: white;
+padding: 2px;
+border-radius:3px;
+}
+
+.cta-btn{
+    background-color: black;
+    color:white;
+    border:none;
+    border-radius:8px;
+    padding: 4px;
+}
+.top--content
+{
+    background-color: silver;
+    content: '';
+    position: absolute;
+    top:0;
+    right:0;gap:98px;
+    justify-content: space-around;
+    bottom:20;
+    display: flex;
+}
+.container-products{
+    display: flex;
+
+    padding: 50px 10px;
+    
+    gap:10px;
+}
+.banner {
+    width: 100%;
+}
+.saving--products{
+    padding: 100px 0;
+}
+
+.cards{
+border:1px solid gray;
+    border-radius: 8px;
+    gap:8px;
+    position: relative;
+    flex-basis: 40%;
+}
+.card img{
+    border-radius:10px;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+ 
+}
+.card button{
+    border-radius:8px;
+    background-color: yellowgreen;
+    color: white;
+    border:none;
+    padding: 5px ;
+    margin-bottom: 10px;
+    display:inline;
+    transition: 0.4s ease-in-out;
+}
+.beauty--products img{
+    width: 100%;
+    padding: 0 20px;
+}
+.section h2{
+    margin:15px 20px;
+}
+.men-section{
+    background-color: #D5E3EB;
+   
+}
+.men-section img{
+    width: 100%;
+}
+.women--sales{
+    background-color: #E5F3F3;
+}
+.icons i{
+    font-size: 23px;
+    border-radius: 50%;
+    background-color: yellow;
+    cursor: pointer;
+    transition: 0.3s;
+    margin:0 10px;
+    padding: 8px;
+}
+.icons i:hover{
+    background-color: red;
+    color: white;
+}
+.card{
+    cursor: pointer;
+    transform: scale(1);
+    transition:0.3s;
+}
+.card:hover{
+    transform: scale(0.4);
+    opacity: 0.3px;
+}
+.card button:hover{
+    background-color: #f5f5f5;
+    color: black;
+}
+.icon--list{
+    position: absolute;
+  
+    bottom:40;
+    left:0;
+    top:100;
+    display: flex;
+    flex-direction: column;
+gap:30px;
+}
+.card p,h6{
+margin:10px 18px;
+}
+.card{
+   
+    flex-basis:20%;
+    background-color: silver;
+   position: relative;
+    border:1px solid azure;
+}
+
+.rounded--images{
+padding: 0 2%;
+    gap:20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.child {
+    flex-basis:100%;
+    position: relative;
+    border-radius: 12px;
+}
+.child img {
+    width:100%;
+
+}
+.p-20{
+    padding: 0 20px;
+}
+.cards img {
+    width: 100%;
+}
+.list a{
+    margin:0 8px;
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.card img{
+    background-color: gainsboro;
+}
+@media(max-width:320px){
+.container-products{
+    flex-direction: column;
+}
+ .header > .container{
+    flex-direction: column;
+}
+.container--grid ul li{
+   display: none;
+}
+.banner--footer{
+    flex-direction: column;
+}
+.col-1 h3{
+    display: none;
+}
+.footer--list {
+    display: none;
+}
+.container-fluid{
+    background-color: #222;
+    color:white;
+}
+ .col-4 {
+   flex-direction: column;
+ }
+ .card1 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+ }
+ .container-products{
+    flex-direction: column;
+ }
+ img{
+    width: 100%;
+height: auto;
+object-fit: cover; 
+}
+ 
+   
+}
+.carousel-dark{
+  border-radius:5px;
+    height:200px;
+
+  
+}
+.feature--product{
+    padding: 100px 0;
+}
+.top--row{
+    display: flex;
+  justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+}
+
+.col{
+    background-color:white;;
+    display: grid;
+    height: 500px;
+   
+    grid-template-columns: repeat(2,2fr);
+}
+
+.col-2{
+
+    grid-template-columns: repeat(2,2fr);
+
+}
+.col-2 img {
+    margin:10px;
+ 
+}
+.section h2{
+    font-family: sans-serif;
+    font-size: 32px;
+
+}
+.topdeals-section button{
+    background-color: black;
+    color: white;
+    padding:  12px 40px;
+    border-radius: 32px;
+    border:none;
+    font-size: 12px;
+}
+.navbar-brand{
+    color:blue;
+
+}
+
+
+.navbar-nav  li a{ 
+    margin:0 18px;
+}
+.nav-item a{
+    font-weight: bold;
+
+}
+.nav-item a:after{
+    content:'';
+    display: block;
+    width: 0%;
+    background-color: #33d0ff;
+    height: 5pX;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+.nav-item a:hover:after {
+width: 100%;
+}
+.products--kitchen{
+    padding: 0 2%;
+}
+
+
+.card1 img{
+padding: 10px 10px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+section{
+    background-color: #f5f5f5;
+}
+
+
+
+.mySlides {display:none;}
+
+
+.banner-img{
+    max-width: 100%;
+    object-fit:cover ;
+    height: auto;
+}
+
+
+.image--container{
+
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+}
+.image--container img{
+    object-fit: cover;
+    width: 100%;
+ height: auto;
+}
+.container--grid{
+display: grid;
+padding: 100px 0;
+grid-template-columns:  repeat(7,1fr);
+gap:10px;
+}
+.bottom--container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 5%;
+    align-items: center;
+}
+.buttons img{
+    width: 120px;
+
+}
+.icons
+{
+    display: inline-block;
+    margin:0 10px;
+
+    font-size:18px;
+}
+svg{
+    width: 50px;
+    padding: 0 4px;
+}
+.card{
+    flex-basis: 22%;
+}
+.women--sales .card img{
+width: 100%;
+object-fit: cover;
+height: auto;
+}
+.women--sales > img{
+    width: 100%;
+}
+.container--grid .col-1 h3{
+    font-size: 15px;
+}
+.header .container{
+    display: flex;
+background-color: rgb(254,238,0);
+    align-items: center;
+   max-width: 100%;
+
+    padding: 8px 15px;
+
+}
+.top--container{
+    flex-direction: column;
+}
+.right-container{
+    display: flex;
+    gap:8px;
+}
+.banner--footer{
+    display: flex;
+    background-color:#F7F7FA;
+    border:1px solid gainsboro;
+    align-items: center;
+    padding: 0 2%;
+    justify-content: space-between;
+}
+.bottom--container{
+    padding-bottom: 100px;
+}
+.col-1 ul li{
+    list-style: none;
+}
+ .container .logo {
+    width: 90px;
+}
+.container-fluid{
+    background-color: white;
+}
+.container--footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%  60px;
+    
+    background-color: #D5E3EB;
+    border-top:1px solid rgb(0, 183, 255);
+}
+.left--content{
+    flex-direction: column;
+}
+.home--section img{
+    width: 100%;
+}
+.top--container
+{
+flex-direction: column;
+}
+.right--content img{
+    width: 50px;
+}
+.footer--list ul li{
+    display: inline-block;
+    text-decoration: underline;
+    list-style: none;
+}
+.banner--image{
+    padding: 100px 0;
+}
+input{
+    width:700px;
+    border: none;
+    padding:5px;
+    border-radius: 8px;
+margin:auto;
+}
